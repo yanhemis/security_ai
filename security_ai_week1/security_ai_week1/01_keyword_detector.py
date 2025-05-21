@@ -1,5 +1,3 @@
-python
-
 def is_malicious(text, keyword_list):
     for keyword in keyword_list:
         if keyword in text.lower():
