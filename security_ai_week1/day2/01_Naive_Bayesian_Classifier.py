@@ -1,5 +1,5 @@
 # CSV 파일에서 피싱 URL 데이터 불러오기
-df = pd.read_csv("phishing_url_sample.csv")  # 'url'과 'label' 열 포함
+df = pd.read_csv("data/phishing_url_sample.csv")  # 'url'과 'label' 열 포함
 
 # TF-IDF 벡터 변환기 생성
 vectorizer = TfidfVectorizer()  # URL을 벡터로 변환 (단어별 희귀성 반영)
